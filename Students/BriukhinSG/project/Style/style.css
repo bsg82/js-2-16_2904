@@ -1,0 +1,176 @@
+body {
+	background: grey;
+	font-family: sans-serif;
+}
+
+header {
+	position: relative;
+	height: 80px;
+	background: blue;
+	border: 1px dashed rgb(253, 217, 243);
+	border-radius: 10px;
+}
+
+.button {
+	padding: 5px 15px;
+	font-size: 18px;
+	border-radius: 10px;
+	font-weight: bold;
+	letter-spacing: .8px;
+	cursor: pointer;
+	border: 1px solid red;
+}
+
+.button:focus {
+	outline: none;
+} 
+
+.cart-button {
+	float: right;
+	margin-right: 25px;
+	margin-top: 24px;
+	background-color: bisque;
+	border: 1px red dashed;
+}
+
+.cart-button:hover {
+	box-shadow: 0 5px 30px rgb(143, 77, 99);
+}
+
+.basket-block {
+	border-radius: 10px;
+	border: 1px rgb(253, 217, 243) dashed;
+	box-sizing: border-box;
+	right: 0;
+	top: 104%;
+	position: absolute;
+	background-color: white;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0 7px 45px rgb(187, 74, 112);
+}
+
+.order-button {
+	margin-left: 25px;
+	background: brown;
+	color: yellow;
+	border: 1px black dashed;
+}
+
+.del-button {
+	background-color: bisque;
+	border: 1px solid #2f2a2d;
+  font-weight: 600;
+	border-radius: 13px;
+	transition: all ease-in-out .4s;
+	cursor: pointer;
+	min-width: 35px;
+	height: 31px;
+}
+
+.del-button:hover {
+	color: bisque;
+	background-color: #2f2a2d;
+	border: 1px solid #2f2a2d;
+	outline: none;
+}
+
+.product {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	background: rgb(253, 217, 243);
+	border: 1px dashed #fff;
+	padding: 7px;
+	margin-bottom: 7px;
+}
+
+	.prodDescription {
+		margin: 3px;
+	}
+
+.total {
+	background: palevioletred;
+	border: 1px dashed rgb(253, 217, 243);
+	border-radius: 10px;
+	padding: 12px;
+	margin-bottom: 0;
+}
+
+.goods-list {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 130px;
+}
+
+.goods-item {
+	background: rgb(247, 161, 167);
+	border: rgb(253, 217, 243) 1px dashed;
+	border-radius: 10px;
+	margin-top: 35px;
+	padding: 5px;
+	height: 100px;
+	width: 90px;
+	text-align: center;
+	cursor: pointer;
+}
+.hmb {
+	position: fixed;
+	left: 13px;
+	top: 120px;
+	width: 120px;
+	padding: 0 8px;
+	background-color: brown;
+	border: rgb(253, 217, 243) 1px dashed;
+	border-radius: 10px;
+	text-align: center;
+}
+.hmb a {
+	color: bisque;
+	text-decoration: none;
+	letter-spacing: .4px;
+}
+.hmb a:hover {
+	text-decoration: underline;
+	color: bisque;
+}
+.size > label {
+	margin-right: 50px;
+}
+form {
+	width: 600px;
+	font-size: 20px;
+}
+.hamburgerMain {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0 0 180px;
+}
+.size,
+.option,
+.price {
+	margin-bottom: 5px;
+}
+.size,
+.topping,
+.option,
+.calories,
+.price {
+	border: 1px rgb(231, 125, 161) dotted;
+	border-radius: 10px;
+}
+.additional,
+.filling,
+.size {
+	padding: 15px 20px;
+}
+.calories,
+.price {
+	padding: 0 20px;
+}
+#calories,
+#price {
+	font-size: 26px;
+	color: brown;
+	font-weight: bold;
+}
